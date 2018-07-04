@@ -4,8 +4,8 @@ import com.plamenti.Interfaces.FlyBehavior;
 import com.plamenti.Interfaces.QuackBehavior;
 
 public abstract class Duck{
-    private FlyBehavior flyBehavior;
-    private QuackBehavior quackBehavior;
+    FlyBehavior flyBehavior;
+    QuackBehavior quackBehavior;
 
 
 
