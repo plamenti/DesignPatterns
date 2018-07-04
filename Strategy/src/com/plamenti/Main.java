@@ -10,5 +10,10 @@ public class Main {
 
         DecoyDuck decoyDuck = new DecoyDuck();
         decoyDuck.display();
+
+        System.out.println("######################");
+
+        ModelDuck modelDuck = new ModelDuck();
+        modelDuck.display();
     }
 }
