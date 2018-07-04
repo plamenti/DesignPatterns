@@ -1,5 +1,7 @@
 package com.plamenti;
 
+import com.plamenti.Behaviors.FlyBehaviors.FlyWithRocket;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -14,6 +16,10 @@ public class Main {
         System.out.println("######################");
 
         ModelDuck modelDuck = new ModelDuck();
+        modelDuck.display();
+
+        // Add/Change behavior
+        modelDuck.setFlyBehavior(new FlyWithRocket());
         modelDuck.display();
 
         System.out.println("######################");
