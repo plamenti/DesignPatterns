@@ -20,5 +20,10 @@ public class Main {
 
         ReadHeadDuck readHeadDuck = new ReadHeadDuck();
         readHeadDuck.display();
+
+        System.out.println("######################");
+
+        RubberDuck rubberDuck = new RubberDuck();
+        rubberDuck.display();
     }
 }
