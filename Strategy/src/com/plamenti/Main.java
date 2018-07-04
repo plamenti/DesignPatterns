@@ -15,5 +15,10 @@ public class Main {
 
         ModelDuck modelDuck = new ModelDuck();
         modelDuck.display();
+
+        System.out.println("######################");
+
+        ReadHeadDuck readHeadDuck = new ReadHeadDuck();
+        readHeadDuck.display();
     }
 }
