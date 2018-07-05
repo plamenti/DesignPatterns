@@ -1,4 +1,4 @@
-package com.plamenti;
+package com.plamenti.beveragesToBeDecorated;
 
 public abstract class Beverage{
     String description = "Unknown beverage";
