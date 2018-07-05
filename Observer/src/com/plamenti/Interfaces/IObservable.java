@@ -1,4 +1,4 @@
-package com.plamenti.Interfaces;
+package com.plamenti.interfaces;
 
 public interface IObservable{
     void registerObserver(IObserver observer);

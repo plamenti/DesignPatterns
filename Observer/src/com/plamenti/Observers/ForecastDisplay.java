@@ -1,8 +1,8 @@
-package com.plamenti.Observers;
+package com.plamenti.observers;
 
-import com.plamenti.Interfaces.IDisplay;
-import com.plamenti.Interfaces.IObservable;
-import com.plamenti.Interfaces.IObserver;
+import com.plamenti.interfaces.IDisplay;
+import com.plamenti.interfaces.IObservable;
+import com.plamenti.interfaces.IObserver;
 
 public class ForecastDisplay implements IObserver, IDisplay{
     private float temperature;

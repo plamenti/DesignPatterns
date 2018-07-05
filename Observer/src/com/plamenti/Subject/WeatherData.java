@@ -1,7 +1,7 @@
-package com.plamenti.Subject;
+package com.plamenti.subject;
 
-import com.plamenti.Interfaces.IObservable;
-import com.plamenti.Interfaces.IObserver;
+import com.plamenti.interfaces.IObservable;
+import com.plamenti.interfaces.IObserver;
 
 import java.util.ArrayList;
 import java.util.List;
