@@ -1,8 +1,14 @@
 package com.plamenti;
 
+import com.plamenti.beveragesToBeDecorated.Beverage;
+import com.plamenti.beveragesToBeDecorated.Espresso;
+
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+        // Order some coffee without any condiment
+        Beverage beverage = new Espresso();
+        System.out.println(beverage.getDescription() + " $" + beverage.cost());
+
     }
 }
