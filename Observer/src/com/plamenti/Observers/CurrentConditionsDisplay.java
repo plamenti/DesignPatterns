@@ -17,10 +17,11 @@ public class CurrentConditionsDisplay implements IObserver, IDisplay{
 
     @Override
     public void display(){
-        System.out.println("Current weather conditions:");
+        System.out.println("### Current weather conditions: ###");
         System.out.println("Temperature: " + this.temperature);
         System.out.println("Humidity: " + this.humidity);
         System.out.println("Pressure: " + this.pressure);
+        System.out.println("#######");
     }
 
     @Override
