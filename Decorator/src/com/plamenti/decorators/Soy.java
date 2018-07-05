@@ -5,7 +5,6 @@ import com.plamenti.beveragesToBeDecorated.Beverage;
 public class Soy extends CondimentDecorator{
     public final double SOY_COST = 0.15;
     public final String SOY_NAME = "Soy";
-    Beverage beverage;
 
     public Soy(Beverage beverage){
         this.beverage = beverage;

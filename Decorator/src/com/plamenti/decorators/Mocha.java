@@ -5,7 +5,6 @@ import com.plamenti.beveragesToBeDecorated.Beverage;
 public class Mocha extends CondimentDecorator{
     public final double MOCHA_COST = 0.20;
     public final String MOCHA_NAME = "Mocha";
-    Beverage beverage;
 
     public Mocha(Beverage beverage){
         this.beverage = beverage;
