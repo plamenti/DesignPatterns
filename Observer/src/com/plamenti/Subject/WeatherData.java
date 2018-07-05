@@ -1,4 +1,4 @@
-package com.plamenti;
+package com.plamenti.Subject;
 
 import com.plamenti.Interfaces.IObservable;
 import com.plamenti.Interfaces.IObserver;
