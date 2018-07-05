@@ -42,7 +42,7 @@ public class WeatherData implements IObservable{
     }
 
     @Override
-    public void addObserver(IObserver observer){
+    public void registerObserver(IObserver observer){
         this.observers.add(observer);
     }
 
@@ -57,8 +57,7 @@ public class WeatherData implements IObservable{
 
     @Override
     public void notifyObservers(){
-        for(IObserver observer:
-            this.observers){
+        for(IObserver observer : this.observers){
             observer.update(this.temperature, this.humidity, this.pressure);
         }
     }

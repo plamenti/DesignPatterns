@@ -1,7 +1,7 @@
 package com.plamenti.Interfaces;
 
 public interface IObservable{
-    void addObserver(IObserver observer);
+    void registerObserver(IObserver observer);
     void removeObserver(IObserver observer);
     void notifyObservers();
 }
