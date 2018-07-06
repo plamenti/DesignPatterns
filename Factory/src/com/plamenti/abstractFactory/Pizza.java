@@ -1,6 +1,11 @@
 package com.plamenti.abstractFactory;
 
-import com.plamenti.abstractFactory.ingredients.*;
+import com.plamenti.abstractFactory.ingredients.cheese.Cheese;
+import com.plamenti.abstractFactory.ingredients.clams.Clams;
+import com.plamenti.abstractFactory.ingredients.dough.Dough;
+import com.plamenti.abstractFactory.ingredients.pepperoni.Pepperoni;
+import com.plamenti.abstractFactory.ingredients.sauce.Sauce;
+import com.plamenti.abstractFactory.ingredients.veggies.Veggies;
 
 public abstract class Pizza{
     String name;

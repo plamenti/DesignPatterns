@@ -1,4 +1,4 @@
-package com.plamenti.abstractFactory.ingredients;
+package com.plamenti.abstractFactory.ingredients.sauce;
 
 public class MarinaraSauce implements Sauce{
     public String toString() {

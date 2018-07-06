@@ -1,4 +1,4 @@
-package com.plamenti.abstractFactory.ingredients;
+package com.plamenti.abstractFactory.ingredients.clams;
 
 public class FrozenClams implements Clams{
     public String toString() {

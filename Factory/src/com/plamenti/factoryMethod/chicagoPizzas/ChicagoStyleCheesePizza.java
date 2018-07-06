@@ -4,11 +4,11 @@ import com.plamenti.factoryMethod.Pizza;
 
 public class ChicagoStyleCheesePizza extends Pizza{
     public ChicagoStyleCheesePizza(){
-        name = "Chicago Style Deep Dish Cheese Pizza";
+        name = "Chicago Style Deep Dish cheese Pizza";
         dough = "Extra Thick Crust Dough";
         sauce = "Plum Tomato Sauce";
 
-        toppings.add("Shredded Mozzarella Cheese");
+        toppings.add("Shredded Mozzarella cheese");
     }
 
     @Override

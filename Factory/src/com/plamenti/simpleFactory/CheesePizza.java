@@ -2,7 +2,7 @@ package com.plamenti.simpleFactory;
 
 public class CheesePizza extends Pizza{
     public CheesePizza(){
-        name = "Cheese Pizza";
+        name = "cheese Pizza";
         dough = "Regular Crust";
         sauce = "Marinara Pizza Sauce";
         toppings.add("Fresh Mozzarella");

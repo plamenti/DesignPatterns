@@ -1,4 +1,4 @@
-package com.plamenti.abstractFactory.ingredients;
+package com.plamenti.abstractFactory.ingredients.veggies;
 
 public class Eggplant implements Veggies {
     public String toString() {

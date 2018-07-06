@@ -1,4 +1,4 @@
-package com.plamenti.abstractFactory.ingredients;
+package com.plamenti.abstractFactory.ingredients.pepperoni;
 
 public class SlicedPepperoni implements Pepperoni{
     public String toString() {

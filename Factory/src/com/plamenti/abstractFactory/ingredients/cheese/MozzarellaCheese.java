@@ -1,4 +1,4 @@
-package com.plamenti.abstractFactory.ingredients;
+package com.plamenti.abstractFactory.ingredients.cheese;
 
 public class MozzarellaCheese implements Cheese{
     public String toString(){

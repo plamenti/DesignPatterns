@@ -8,7 +8,7 @@ public class NYStyleVeggiePizza extends Pizza{
         dough = "Thin Crust Dough";
         sauce = "Marinara Sauce";
 
-        toppings.add("Grated Reggiano Cheese");
+        toppings.add("Grated Reggiano cheese");
         toppings.add("Garlic");
         toppings.add("Onion");
         toppings.add("Mushrooms");

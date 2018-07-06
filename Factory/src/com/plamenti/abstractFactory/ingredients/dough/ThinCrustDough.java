@@ -1,4 +1,4 @@
-package com.plamenti.abstractFactory.ingredients;
+package com.plamenti.abstractFactory.ingredients.dough;
 
 public class ThinCrustDough implements Dough{
     public String toString() {

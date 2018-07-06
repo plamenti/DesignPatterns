@@ -1,4 +1,4 @@
-package com.plamenti.abstractFactory.ingredients;
+package com.plamenti.abstractFactory.ingredients.clams;
 
 public class FreshClams implements Clams{
     public String toString() {

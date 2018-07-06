@@ -8,7 +8,7 @@ public class ChicagoStyleClamPizza extends Pizza{
         dough = "Extra Thick Crust Dough";
         sauce = "Plum Tomato Sauce";
 
-        toppings.add("Shredded Mozzarella Cheese");
+        toppings.add("Shredded Mozzarella cheese");
         toppings.add("Frozen Clams from Chesapeake Bay");
     }
 

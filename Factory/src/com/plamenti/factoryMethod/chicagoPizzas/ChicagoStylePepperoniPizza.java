@@ -8,7 +8,7 @@ public class ChicagoStylePepperoniPizza extends Pizza{
         dough = "Extra Thick Crust Dough";
         sauce = "Plum Tomato Sauce";
 
-        toppings.add("Shredded Mozzarella Cheese");
+        toppings.add("Shredded Mozzarella cheese");
         toppings.add("Black Olives");
         toppings.add("Spinach");
         toppings.add("Eggplant");
