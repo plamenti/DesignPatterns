@@ -1,5 +1,7 @@
 package com.plamenti.abstractFactory;
 
+import com.plamenti.abstractFactory.pizzas.Pizza;
+
 public abstract class PizzaStore{
     protected abstract Pizza createPizza(String type);
 

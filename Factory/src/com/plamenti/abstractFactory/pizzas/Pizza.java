@@ -1,4 +1,4 @@
-package com.plamenti.abstractFactory;
+package com.plamenti.abstractFactory.pizzas;
 
 import com.plamenti.abstractFactory.ingredients.cheese.Cheese;
 import com.plamenti.abstractFactory.ingredients.clams.Clams;
@@ -17,25 +17,25 @@ public abstract class Pizza{
     Pepperoni pepperoni;
     Clams clam;
 
-    abstract void prepare();
+    public abstract void prepare();
 
-    void bake() {
+    public void bake() {
         System.out.println("Bake for 25 minutes at 350");
     }
 
-    void cut() {
+    public void cut() {
         System.out.println("Cutting the pizza into diagonal slices");
     }
 
-    void box() {
+    public void box() {
         System.out.println("Place pizza in official PizzaStore box");
     }
 
-    void setName(String name) {
+    public void setName(String name) {
         this.name = name;
     }
 
-    String getName() {
+    public String getName() {
         return name;
     }
 
