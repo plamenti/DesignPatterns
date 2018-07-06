@@ -1,8 +1,8 @@
 package com.plamenti;
 
-import com.plamenti.SimpleFactory.Pizza;
-import com.plamenti.SimpleFactory.PizzaSimpleFactory;
-import com.plamenti.SimpleFactory.PizzaStore;
+import com.plamenti.simpleFactory.Pizza;
+import com.plamenti.simpleFactory.PizzaSimpleFactory;
+import com.plamenti.simpleFactory.PizzaStore;
 
 public class Main {
 

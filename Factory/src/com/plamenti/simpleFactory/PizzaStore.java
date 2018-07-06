@@ -1,4 +1,4 @@
-package com.plamenti.SimpleFactory;
+package com.plamenti.simpleFactory;
 
 public class PizzaStore{
     PizzaSimpleFactory factory;

@@ -1,4 +1,4 @@
-package com.plamenti.SimpleFactory;
+package com.plamenti.simpleFactory;
 
 import java.util.ArrayList;
 import java.util.List;
