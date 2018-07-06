@@ -1,7 +1,7 @@
 package com.plamenti.simpleFactory;
 
-public class ClamPiza extends Pizza{
-    public ClamPiza(){
+public class ClamPizza extends Pizza{
+    public ClamPizza(){
         name = "Clam Pizza";
         dough = "Thin Crust";
         sauce = "White garlic sauce";
