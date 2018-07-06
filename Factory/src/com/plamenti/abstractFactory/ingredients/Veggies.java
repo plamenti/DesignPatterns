@@ -1,4 +1,4 @@
-package com.plamenti.abstractFactory.ingradients;
+package com.plamenti.abstractFactory.ingredients;
 
 public interface Veggies{
     String toString();

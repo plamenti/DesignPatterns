@@ -1,6 +1,6 @@
 package com.plamenti.abstractFactory;
 
-import com.plamenti.abstractFactory.ingradients.*;
+import com.plamenti.abstractFactory.ingredients.*;
 
 public abstract class Pizza{
     String name;
