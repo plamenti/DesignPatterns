@@ -15,7 +15,12 @@ public class Main {
 //        System.out.println(singleton.getDescription());
 
         // initialization On Demand Holder Idiom
-        com.plamenti.initializationOnDemandHolderIdiom.Singleton singleton = com.plamenti.initializationOnDemandHolderIdiom.Singleton.getInstance();
+//        com.plamenti.initializationOnDemandHolderIdiom.Singleton singleton = com.plamenti.initializationOnDemandHolderIdiom.Singleton.getInstance();
+//        System.out.println(singleton.getDescription());
+
+        // using enum
+        // PREFER THIS APPROACH!
+        com.plamenti.withEnum.Singleton singleton = com.plamenti.withEnum.Singleton.INSTANCE;
         System.out.println(singleton.getDescription());
     }
 }
