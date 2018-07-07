@@ -1,4 +1,4 @@
-package com.plamenti.abstractFactory;
+package com.plamenti.abstractFactory.stores;
 
 import com.plamenti.abstractFactory.pizzas.Pizza;
 
