@@ -22,10 +22,14 @@ public class Main {
 //        System.out.println(pizza);
 
         // Test Factory Method
-        com.plamenti.factoryMethod.PizzaStore chicagoStore = new ChicagoPizzaStore();
-        com.plamenti.factoryMethod.PizzaStore nyStore = new NYPizzaStore();
+//        com.plamenti.factoryMethod.PizzaStore chicagoStore = new ChicagoPizzaStore();
+//        com.plamenti.factoryMethod.PizzaStore nyStore = new NYPizzaStore();
+//        com.plamenti.factoryMethod.Pizza pizza = nyStore.orderPizza("cheese");
 
-        com.plamenti.factoryMethod.Pizza pizza = nyStore.orderPizza("cheese");
+        com.plamenti.abstractFactory.stores.PizzaStore chicagoStore = new com.plamenti.abstractFactory.stores.ChicagoPizzaStore();
+        com.plamenti.abstractFactory.stores.PizzaStore  nyStore = new com.plamenti.abstractFactory.stores.NYPizzaStore();
+
+        com.plamenti.abstractFactory.pizzas.Pizza pizza = nyStore.orderPizza("cheese");
         System.out.println(pizza);
         System.out.println("Ordered a " + pizza.getName() + "\n");
 
